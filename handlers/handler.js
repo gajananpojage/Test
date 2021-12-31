@@ -1,0 +1,16 @@
+module.exports = {
+    validToken: require('../API/validToken.js'),
+    login: require('../API/login.js'),
+    register: require('../API/register.js'),
+    fetchUsers: require('../API/getUsers.js'),
+    addPatient: require('../API/addPatient.js'),
+    editProfile: require('../API/editProfile.js'),
+    fetchPatient: require('../API/fetchPatient.js'),
+    diseases: require('../API/diseases.js'),
+    bookAppointments: require('../API/bookAppointment.js'),
+    fetchAppointment: require('../API/fetchAppointments.js'),
+    deleteAppointment: require('../API/deleteAppointment.js'),
+    singlePatientAppointments: require('../API/singlePatientAppointments.js'),
+    fetchSinglePatient: require('../API/fetchSinglePatient.js'),
+    getProfile: require('../API/getProfile.js'),
+}
